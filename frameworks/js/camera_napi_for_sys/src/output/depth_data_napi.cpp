@@ -101,7 +101,7 @@ void DepthDataNapi::Init(napi_env env)
         DECLARE_NAPI_GETTER("format", GetFormat),
         DECLARE_NAPI_GETTER("depthMap", GetDepthMap),
         DECLARE_NAPI_GETTER("qualityLevel", GetQualityLevel),
-        DECLARE_NAPI_GETTER("dataAccurary", GetAccuracy),
+        DECLARE_NAPI_GETTER("dataAccuracy", GetAccuracy),
         DECLARE_NAPI_FUNCTION("release", Release),
     };
 
